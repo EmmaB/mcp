@@ -9,6 +9,10 @@ module Adaptors
       {"on":false}
     end
 
+    def self.yellow
+      {"hue":10000}
+    end
+
     def self.change_lights(id)
       "/lights/#{id}/state"
     end
